@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav,
+footer {
+  font-size: 16px;
+  height: 51px;
+  padding: 1rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+  margin: 0px 0px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+
+.selector-zone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .selector-zone {
+    width: 100%;
+  }
+}
+.selector-zone .selector-head {
+  height: 50px;
+  text-align: center;
+  font-size: 22px;
+}
+.selector-zone .selector-body {
+  width: 100%;
+  max-width: 800px;
+}
+@media (max-width: 1024px) {
+  .selector-zone .selector-body {
+    max-width: 600px;
+  }
+}
+
+.machine {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.machine .colum-detail {
+  height: 200px;
+  width: 200px;
+  border: 1px solid green;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.machine .colum-detail div {
+  margin: 10px 0px;
+}
+
+.machine-form {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.machine-form .form-row {
+  width: 100%;
+}
+.machine-form .machine-detail {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.machine-form .machine-detail .colum-detail {
+  height: 200px;
+  width: 200px;
+  border: 1px solid green;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.machine-form .option-detail {
+  padding: 15px 0px;
+}
+.machine-form .option-detail .option {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.machine-form .option-detail .option .option-btn {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.machine-form .option-detail .option .option-btn.activate {
+  background-color: rgb(32, 184, 96);
+  color: white;
+}
+
+.coin-btn {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.978);
+  color: black;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+
+.submit-btn {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.submit-btn.ready {
+  background-color: rgb(75, 129, 216);
+  color: white;
+}
+
+.text-fee {
+  font-size: 30px;
+}
+
+.click-able {
+  cursor: pointer;
+}
+
+.text-success {
+  color: rgb(43, 189, 84);
+}
+
+.text-danger {
+  color: rgb(226, 88, 88);
+}
+
+.text-primary {
+  color: rgb(90, 90, 235);
+}/*# sourceMappingURL=main.css.map */
