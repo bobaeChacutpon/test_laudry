@@ -8,16 +8,15 @@ if ($_POST) {
     header("location:?id=" . $id . "&step=2&fee=" . $opt);
   }
   if (isset($_POST['submit_form2'])) {
-    header("location:?id=" . $id . "&step=3&fee=" . $opt);
+    header("location:?id=" . $id . "&step=3&");
   }
 }
 
-
-
-
 /// เริ่มทำงาน กำหนดเวลาซักก ///
 if ($step == 3) {
+  // ตั้งเวลาจากเวลาเริ่มทำงาน + 2 นาที //
   $newTime = date("m-d, Y H:i:s", strtotime("+2  minutes"));
+  // สมมุติ contact ติดต่อ //
   $contact = "test@line";
 }
 

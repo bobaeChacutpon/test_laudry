@@ -1,7 +1,7 @@
 <?php
 isset($_POST['contact']) ? $contact = $_POST['contact'] : $contact = "";
 
-//// $contact ตอนนี้ยังเป็น mock-up data อยู่ !! ตามแบบ ต้องเป็นรูปแบบ token จึงสามารถเชื่อมกับระบบ notify ของ line ///
+//// $contact ตอนนี้ยังเป็น mock-up data อยู่ ตามรูปแบบจะต้องเป็นรูปแบบ token จึงสามารถเชื่อมกับระบบ notify ของ line ///
 
 $sToken = "j8SkspLB1sWq4kmSVx2VoZDZI6LSkb9UH7";
 $sMessage = "คำสั่งซักของคุณกำลังจะเสร็จสิ้นภายใน 1 นาที";
